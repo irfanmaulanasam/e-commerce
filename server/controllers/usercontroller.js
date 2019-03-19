@@ -9,10 +9,18 @@ class UserController{
             res.status(201).json(data)
         })
         .catch(err=>{
-            res.status(500).json({
-                error:err.message,
-                message:'internal server error'
-            })
+            console.log(err)
+            if(err.code === 11000){
+                res.status(400).json({
+                    message:'email/username already exist'
+                })
+            } else {
+                console.log(`masuk sini sekarang`)
+                res.status(500).json({
+                    error:err.message,
+                    message:'internal server error'
+                })
+            }
         })
     }
 
@@ -50,10 +58,41 @@ class UserController{
     }
 
     static update(req,res){
-        
+        token.verify(req.header.token)
+        .then(id=>{
+            return User.findOne(id)
+        })
+        .then(user=>{
+            if (user) {
+                user.name = req.body.name
+                user.username = req.body.username
+                user.password = req.body.password
+                return user.save()
+            } else {
+                throw new Error({
+                    message:'user not found'
+                })
+            }
+        })
+        .then(data=>{
+            res.status(200).json(data)
+        })
+        .catch(err=>{
+            res.status(500).json(err.Error)
+        })
     }
-    static delete(req,res){
 
+    static delete(req,res){
+        token.verify(req.header.token)
+        then(id=>{
+            User.findByIdAndDelete(id)
+        })
+        .then(data=>{
+            res.status(410).json(data)
+        })
+        .catch(err=>{
+            res.status(500).json(err.Error)
+        })
     }
 }
 module.exports = UserController

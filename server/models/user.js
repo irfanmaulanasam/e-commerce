@@ -7,7 +7,13 @@ const userSchema = new Schema({
     name:String,
     username:{
         type: String,
-        unique:[true,'username have been taken']
+        unique:[true,'username already exist'],
+        validate:{
+            validator(username) {
+                return / /.test(username);
+            },
+            message: `username cannot have space`
+        }
     },
     email: {
         type: String,

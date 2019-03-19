@@ -3,9 +3,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 let mongoose = require('mongoose');
-const dotenv = require('dotenv').config();
-const databaseName = dotenv.test
-
+require('dotenv').config();
+const databaseName = process.env.node_env
 
 mongoose.connect(`mongodb://localhost/${databaseName}`,{useNewUrlParser:true})
 mongoose.set('useCreateIndex', true)
@@ -24,6 +23,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/product', productRouter);
 app.use('/cart', cartRouter);
-app.use('/users', usersRouter);
+app.use('/user', usersRouter);
 
 module.exports = app;
