@@ -4,20 +4,27 @@ const hashingpassword = require('../helpers/password')
 const Schema = mongoose.Schema
 
 const userSchema = new Schema({
-    name:String,
+    name:{
+        type:String,
+        required:[true,'name have empty value']
+    },
+    address:{
+        type:String,
+        required:[true,'address have empty value']
+    },
     username:{
         type: String,
         unique:[true,'username already exist'],
         validate:{
             validator(username) {
-                return / /.test(username);
+                return !/\s/.test(username);
             },
             message: `username cannot have space`
         }
     },
     email: {
         type: String,
-        require: [true, 'Email required'],
+        required: [true, 'Email required'],
         unique: [true, 'Email already exits'],
         validate: {
             validator: function(email) {
@@ -30,8 +37,9 @@ const userSchema = new Schema({
         minlength:8,
         maxlength:20,
         type: String,
-        require: [true, 'Password required']
-    }
+        required: [true, 'Password required']
+    },
+    Admin:Boolean,
 })
 
 userSchema.pre('save', function(next) {

@@ -1,6 +1,7 @@
-const token = require('jsonwebtoken')
+const jwt = require('jsonwebtoken')
 require('dotenv').config()
 const secret = process.env.tokenlogin
+
 class Token{
     static create(id){
         return new Promise(function(resolve,reject){

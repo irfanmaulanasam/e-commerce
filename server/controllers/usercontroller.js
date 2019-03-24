@@ -1,18 +1,51 @@
 const User = require('../models/user')
 const password = require('../helpers/password')
 const token = require('../helpers/token')
+require('dotenv').config()
+const specialkey = process.env.kopilopi
+
 class UserController{
 
     static create(req,res){
-        User.create(req.body)
+        let newUser = req.body
+        let dataSuccess = {}
+        if (req.params ) {
+            if (req.params.specialkey === specialkey) {
+                newUser.Admin = true
+            } else {
+                throw new Error('invalid address')
+            }
+        } else {
+            newUser.Admin = false
+        }
+        User.create(newUser)
         .then(data=>{
-            res.status(201).json(data)
+            dataSuccess = {
+                username:data.username,
+                name:data.name,
+                address:data.address,
+                isAdmin:data.Admin,
+                token:null
+            }
+            return token.create(data.id)
+        })
+        .then(data=>{
+            dataSuccess.token = data
+            res.status(201).json(dataSuccess)
         })
         .catch(err=>{
-            console.log(err)
-            if(err.code === 11000){
+            if(err.Error === 'invalid address'){
+                res.status(404).json({
+                    message:'page not found'
+                })
+            } else if(err.code === 11000){
                 res.status(400).json({
                     message:'email/username already exist'
+                })
+            } else if(err.message){
+                let message = err.message.split(':').slice(1)
+                res.status(400).json({
+                    message: message
                 })
             } else {
                 console.log(`masuk sini sekarang`)
@@ -26,31 +59,34 @@ class UserController{
 
     static signin(req,res){
         let id = null
+        let dataSuccess = {}
         User.findOne({$or:[
             {email:req.body.email},
             {username:req.body.email}    
         ]})
         .then(data=>{
             if (!data) {
-                throw new Error({
+                throw Error ({
                     message:'username/password is invalid'
                 })
             } else {
+                dataSuccess.isAdmin = data.Admin
                 id = data.id
-                password.compare(req.body.password,data.password)
+                return password.compare(req.body.password,data.password)
             }
         })
         .then(check=>{
             if (check) {
                 return token.create(id)
             } else {
-                throw new Error ({
+                throw ({
                     message: 'username/password is invalid'
                 })
             }
         })
         .then(data=>{
-            res.status(200).json(data)
+            dataSuccess.token = data
+            res.status(200).json(dataSuccess)
         })
         .catch(err=>{
             res.status(500).json(err)
@@ -58,18 +94,28 @@ class UserController{
     }
 
     static update(req,res){
-        token.verify(req.header.token)
+        const {name,username,password,address} = req.body
+        token.verify(req.headers.token)
         .then(id=>{
-            return User.findOne(id)
+            return User.findById(id)
         })
         .then(user=>{
             if (user) {
-                user.name = req.body.name
-                user.username = req.body.username
-                user.password = req.body.password
+                if (name) {
+                    user.name = name
+                }
+                if(username){
+                    user.username = username
+                }
+                if (password) {
+                    user.password = password
+                }
+                if (address) {
+                    user.address = address
+                }
                 return user.save()
             } else {
-                throw new Error({
+                throw Error({
                     message:'user not found'
                 })
             }

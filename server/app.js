@@ -9,9 +9,7 @@ const databaseName = process.env.node_env
 mongoose.connect(`mongodb://localhost/${databaseName}`,{useNewUrlParser:true})
 mongoose.set('useCreateIndex', true)
 
-var productRouter = require('./routes/product');
-var cartRouter = require('./routes/cart');
-var usersRouter = require('./routes/users');
+const{ product, cart, users,transaction} = require('./routes');
 
 var app = express();
 
@@ -21,8 +19,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/product', productRouter);
-app.use('/cart', cartRouter);
-app.use('/user', usersRouter);
+app.use('/product', product);
+app.use('/cart', cart);
+app.use('/user', users);
+app.use('/transaction', transaction);
 
 module.exports = app;

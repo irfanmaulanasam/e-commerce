@@ -1,0 +1,3962 @@
+{
+	"info": {
+		"_postman_id": "e2ed5d7c-ce39-42d7-8da5-da85582ab41b",
+		"name": "kopilopi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiJ9.NWM5NzlhZDQyODAxYjgzYWUxZWZhNzYw.iN6KPn-hbfk5Zs9v7j4b_rSgANOAGzfx5YCzxET_ceI",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalasgi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "danidniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "danidniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "danidniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "danidniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "danidniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "danidniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "danidniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "danidniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "danidniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "danidniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "danidniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "danidniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup/(ofee0rdoubt",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "namanyanyoba",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "testing namanya",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ayoapalagi@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup/(ofee0rdoubt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup",
+						"(ofee0rdoubt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup/(ofee0rdoubt",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "cobanamanya",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "testing namanya",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "danini@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup/(ofee0rdoubt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup",
+						"(ofee0rdoubt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup/(ofee0rdoubt",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "cobanamanya",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "testing namanya",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "danini@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup/(ofee0rdoubt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup",
+						"(ofee0rdoubt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup/(ofee0rdou",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "cobanamanya",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "testing namanya",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "danini@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup/(ofee0rdou",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup",
+						"(ofee0rdou"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup/(ofee0rdou",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "cobanamanya",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "testing namanya",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "danini@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup/(ofee0rdou",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup",
+						"(ofee0rdou"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup/(ofee0rdoubt",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "cobanamanya",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "testing namanya",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "danini@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup/(ofee0rdoubt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup",
+						"(ofee0rdoubt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup/(ofee0rdoubt",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "cobanamanya",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "testing namanya",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "danini@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup/(ofee0rdoubt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup",
+						"(ofee0rdoubt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup/(ofee0rdoubt",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "cobanamanya",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "testing namanya",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "danini@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup/(ofee0rdoubt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup",
+						"(ofee0rdoubt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "namabanyak",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "cobacaridimana",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "daniniisinyapass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "marikesini@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "adabanyaknama",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "banyaknamadisini",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "disinibanyaknamanya",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "adadisini@mail.co",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "irfan2maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "fffffffff",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "eeeeee",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "irfan2maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "irfan2maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "irfan2maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "irfan2maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "win",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfan2maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfan2maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "122error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "22error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfanmaulanasam22",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "22error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfanmaulanasam2",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "2error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfanmaulanasam2",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "2error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfanmaulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "2error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "2irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfanmaulanasam2",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfanmaulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipassword",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfanmaulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfanmaulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfanmaulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/user/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfanmaulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/users/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfanmaulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/users/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "password",
+							"value": "inipass",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "error@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "irfan maulanasam",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "irfanmaulanasam",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "jakarta",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

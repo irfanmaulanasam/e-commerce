@@ -156,27 +156,27 @@
 //                 })
 //         });
 
-// //         it('should delete a SINGLE product on /product/delete/12345 DELETE', function (done) {
-// //             chai.request(app)
-// //                 .delete(`/product/delete/12345`)
-// //                 .send()
-// //                 .end((err,res)=>{
-// //                     should.not.exist(err)
-// //                     // err.should.be.null
-// //                     res.should.has.status(201)
-// //                     res.should.be.a('Object')
-// //                     res.body.hasOwnProperty(`product`)
-// //                     res.body.hasOwnProperty(`description`)
-// //                     res.body.hasOwnProperty(`tag`)
-// //                     done()
-// //                 })
-// //         });
-// //     });
-// //     // end test product
+//         it('should delete a SINGLE product on /product/delete/12345 DELETE', function (done) {
+//             chai.request(app)
+//                 .delete(`/product/delete/12345`)
+//                 .send()
+//                 .end((err,res)=>{
+//                     should.not.exist(err)
+//                     // err.should.be.null
+//                     res.should.has.status(201)
+//                     res.should.be.a('Object')
+//                     res.body.hasOwnProperty(`product`)
+//                     res.body.hasOwnProperty(`description`)
+//                     res.body.hasOwnProperty(`tag`)
+//                     done()
+//                 })
+//         });
+//     });
+//     // end test product
 
 
 
-// //     // start cart test
+//     // start cart test
 
 //     describe('cart', function() {
 //         it('should get an array on /cart GET',function(done) {

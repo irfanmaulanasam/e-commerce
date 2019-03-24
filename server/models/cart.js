@@ -3,13 +3,27 @@ const timestamp = require('mongoose-timestamp')
 const Schema = mongoose.Schema
 
 const cartSchema = new Schema({
-    user: {
-        type:Schema.objectId.user,
+    cartOwner: {
+        type:mongoose.Schema.Types.ObjectId,
         ref:'User'
     },
-    cart:{
-        type:String,
-        require:true
+    productId:{
+        type:mongoose.Schema.Types.ObjectId,
+        require:[true,'product is invalid']
+    },
+    quantity:{
+        type:Number,
+        require:true,
+        validate:{
+            validator(quantity) {
+                return quantity > 0 ;
+            },
+            message: `quantity cannot be 0 point`
+        }
+    },
+    status:{
+        type:Boolean,
+        require:[true,'status undefined']
     }
 })
 cartSchema.plugin(timestamp,  {

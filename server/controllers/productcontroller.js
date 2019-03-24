@@ -4,13 +4,15 @@ const token = require('../helpers/token')
 
 class ProductController{
     static create(req,res){
-        // console.log(req.body)
-        const {name,description,tag,category} = req.body
+        const {name,description,imageUrl,tag,category,price,stock} = req.body
         Product.create({
                 name,
                 description,
                 tag,
-                category
+                imageUrl,
+                category,
+                price,
+                stock
             })
         .then(data=>{
             res.status(201).json(data)
@@ -41,7 +43,7 @@ class ProductController{
     }
 
     static update(req,res){
-        const {id,name,description,tag,category} = req.body
+        const {name,description,tag,category} = req.body
         token.verify(req.header.token)
         .then(id=>{
             return User.findOne({
@@ -52,18 +54,27 @@ class ProductController{
             if (data) {
                 return Product.findById(id)
             } else {
-                throw new Error({
+                throw Error({
                     message:'user not found'
                 })
             }
         })
         .then(data=>{
-            data.user = id
-            data.name = name
-            data.description = description
-            data.price = price
-            data.tag = tag
-            data.category = category
+            if(name){
+                data.name = name
+            }
+            if (description) {
+                data.description = description
+            }
+            if (price) {
+                data.price = price
+            }
+            if(tag){
+                data.tag = tag
+            }
+            if (category) {
+                data.category = category
+            }
             return data.save()
         })
         .then(data=>{
