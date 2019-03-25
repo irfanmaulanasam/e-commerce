@@ -15,8 +15,7 @@
 
   export default {
     data(){
-      return{
-        
+      return{ 
         product:[],
         isAdmin:false,
         islogin:false,
@@ -37,6 +36,21 @@
         .catch(err=>{
           console.log(err)
         })
+    },
+    methods:{
+      signin(){
+
+      },
+      signout(){
+
+      },
+      signup(){
+
+      },
+      addcart(){
+
+      },
+      
     }
   }
 </script>
