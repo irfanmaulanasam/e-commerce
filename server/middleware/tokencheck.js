@@ -1,9 +1,7 @@
 const token = require('../helpers/token');
 
 module.exports = {
-    tokencheck: function (req, res, next) {
-        console.log(req.headers);
-        
+    tokencheck(req, res, next) {
         if (!req.headers.token) {
             res.status(401).json({ msg: `please provide jwt token` })
         } else {
